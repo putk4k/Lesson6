@@ -21,3 +21,4 @@ public interface EmployeeDao {
     @Delete
     void delete(Employee employee);
 }
+

@@ -8,18 +8,18 @@ public class Employee {
     @PrimaryKey(autoGenerate = true)
     public long id;
     public String name;
-    public int salary;
-
+    public String power;
+    public int age;
     public long getId() {
         return id;
     }
 
     public String getName() {
-        return name;
+        return String.valueOf(name);
     }
 
-    public String getSalary() {
-        return String.valueOf(salary);
+    public String getPower() {
+        return String.valueOf(power);
     }
+    public String getAge(){return String.valueOf(age);}
 }
-
